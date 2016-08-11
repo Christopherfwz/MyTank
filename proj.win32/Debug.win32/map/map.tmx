@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="map1" tilewidth="32" tileheight="32" tilecount="240" columns="16">
+  <image source="Outside_A4.png" width="512" height="480"/>
+  <tile id="14">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="collidable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="background" width="16" height="16">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+NnYGAQAGJ+KC0LxHw4sBwQdwJxFxItD8QKSDQuvTA8E4hnIdH6QGyARBPSj24/zN0wmlT7SXU/uv2kuh/dflLdP9TDH6ZvoMKfWumH0vCnNP104XC/Lh69ekj6YRgArAlF/wAEAAA=
+  </data>
+ </layer>
+</map>

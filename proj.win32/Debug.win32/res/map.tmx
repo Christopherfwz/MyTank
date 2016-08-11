@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="32" tileheight="32" nextobjectid="12">
+ <tileset firstgid="1" name="stone" tilewidth="32" tileheight="32" tilecount="240" columns="16">
+  <image source="material/RPG+Marker+VX+Ace自带-爱给网/Dungeon_A4.png" width="512" height="480"/>
+ </tileset>
+ <tileset firstgid="241" name="map1" tilewidth="32" tileheight="32" tilecount="192" columns="16">
+  <image source="material/RPG+Marker+VX+Ace自带-爱给网/Dungeon_A1.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="433" name="map2" tilewidth="32" tileheight="32" tilecount="192" columns="16">
+  <image source="material/RPG+Marker+VX+Ace自带-爱给网/Dungeon_A2.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="625" name="map3" tilewidth="32" tileheight="32" tilecount="192" columns="16">
+  <image source="material/RPG+Marker+VX+Ace自带-爱给网/Outside_A1.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="817" name="map4" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="material/RPG+Marker+VX+Ace自带-爱给网/Outside_A3.png" width="512" height="256"/>
+  <terraintypes>
+   <terrain name="新地形" tile="-1"/>
+   <terrain name="1" tile="-1"/>
+  </terraintypes>
+  <tile id="1" terrain=",0,0,0"/>
+  <tile id="2" terrain="0,,0,"/>
+  <tile id="68">
+   <properties>
+    <property name="collable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="collable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="84">
+   <properties>
+    <property name="collable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="85">
+   <properties>
+    <property name="collable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="块层 1" width="16" height="16">
+  <data encoding="csv">
+293,294,293,294,293,294,293,294,293,294,293,294,293,294,293,294,
+309,310,309,310,309,310,309,859,309,310,309,310,309,310,309,310,
+325,326,819,819,819,896,325,859,325,326,325,326,325,326,325,326,
+293,819,819,819,896,819,819,819,819,819,819,819,819,896,293,294,
+309,819,819,819,819,859,860,819,819,819,819,819,896,895,896,310,
+819,819,819,819,819,875,876,852,852,859,860,896,895,896,895,896,
+819,819,819,819,819,819,819,852,852,875,876,859,860,895,895,895,
+819,819,819,819,819,819,819,819,819,819,819,875,876,911,911,911,
+325,326,325,326,325,326,325,783,783,783,325,326,325,326,325,326,
+293,294,293,294,293,294,293,325,326,293,294,294,293,294,293,294,
+309,310,309,310,309,310,309,310,309,309,310,310,309,310,309,310,
+881,881,881,881,881,881,885,885,885,885,886,881,881,881,881,881,
+293,885,885,885,885,885,901,901,901,901,885,885,885,885,886,294,
+309,901,901,901,901,901,901,902,309,310,901,901,901,901,902,310,
+325,326,325,326,325,326,325,326,325,326,325,326,325,326,325,326,
+293,294,293,294,293,294,293,294,293,294,293,294,293,294,293,294
+</data>
+ </layer>
+ <objectgroup name="对象层 1"/>
+</map>

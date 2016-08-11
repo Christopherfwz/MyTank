@@ -1,0 +1,14 @@
+﻿  AppDelegate.cpp
+  Bullet.cpp
+  DemoScene.cpp
+  TankSprite.cpp
+  WelcomeScene.cpp
+d:\cocosworkplace\cocos\cocosprojects\mytank\classes\joyrocker.h(28): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧 (编译源文件 ..\Classes\TankSprite.cpp)
+d:\cocosworkplace\cocos\cocosprojects\mytank\classes\joyrocker.h(28): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧 (编译源文件 ..\Classes\DemoScene.cpp)
+d:\cocosworkplace\cocos\cocosprojects\mytank\classes\joyrocker.h(28): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧 (编译源文件 ..\Classes\WelcomeScene.cpp)
+d:\cocosworkplace\cocos\cocosprojects\mytank\classes\demoscene.cpp(71): warning C4305: “参数”: 从“double”到“float”截断
+d:\cocosworkplace\cocos\cocosprojects\mytank\classes\joyrocker.h(28): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧 (编译源文件 ..\Classes\AppDelegate.cpp)
+d:\cocosworkplace\cocos\cocosprojects\mytank\classes\appdelegate.cpp(43): warning C4305: “参数”: 从“double”到“float”截断
+  60 File(s) copied
+  MyTank.vcxproj -> D:\CocosWorkplace\Cocos\CocosProjects\MyTank\proj.win32\Debug.win32\MyTank.exe
+  0 File(s) copied
